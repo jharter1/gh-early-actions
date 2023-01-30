@@ -8,3 +8,7 @@ jobs:
         run: echo "Hallo world"
       - name: Print salutations
         run: echo "Listen here buster"
+      - name: Stop & drop
+        run: |
+          echo "Hoo"
+          echo "Noo"
