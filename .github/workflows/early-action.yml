@@ -1,0 +1,10 @@
+name: Early Workflow
+on: workflow_dispatch #manual trigger for said workflow
+jobs:
+  syzzurp-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hallo world"
+      - name: Print salutations
+        run: echo "Listen here buster"
